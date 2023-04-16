@@ -1,0 +1,10 @@
+{
+  "name": "Dictionary Lookup",
+  "description": "Look up the definition of a selected word.",
+  "version": "1.0",
+  "manifest_version": 2,
+  "permissions": ["activeTab", "contextMenus", "http://www.merriam-webster.com/*"],
+  "background": {
+    "scripts": ["background.js"]
+  }
+}
